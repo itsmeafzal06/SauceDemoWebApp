@@ -8,6 +8,7 @@ import java.time.Duration;
 import java.util.Date;
 import java.util.Properties;
 
+import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.OutputType;
@@ -79,7 +80,7 @@ public class BaseClass {
 	}
 	
 	
-public String captureScreen(String tname) throws IOException {
+ public String captureScreen(String tname) throws IOException {
 		
 		String timeStamp = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
 		
@@ -93,4 +94,38 @@ public String captureScreen(String tname) throws IOException {
 		
 		return targetFilePath;
 	}
+ 
+ 
+ 	public String randonString() {
+ 		String st=RandomStringUtils.randomAlphabetic(6);
+ 		return st;
+ 	}
+ 	
+ 	public String randomNum() {
+ 		String num=RandomStringUtils.randomNumeric(10);
+ 		return num;
+ 	}
+ 
+ 	public String randomAlfaNum() {
+ 		String alfaNum=RandomStringUtils.randomAlphanumeric(10);
+ 		return alfaNum;
+ 	}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 }

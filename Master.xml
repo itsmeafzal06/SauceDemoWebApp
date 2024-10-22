@@ -14,7 +14,8 @@
 	<parameter name="browser" value="chrome"/>
 	
     <classes>
-      <class name="TestCases.TC001_SD_LoginTestDDT"/>
+      <class name="TestCases.TC001_SD_LoginTestDDT"/> 
+      <class name="TestCases.TC002_SD_PurchaseTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Master -->
