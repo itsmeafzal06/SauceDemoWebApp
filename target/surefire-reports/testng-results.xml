@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-23T23:57:21 IST" name="Master" finished-at="2024-10-23T23:57:24 IST" duration-ms="3765">
+    <groups>
+    </groups>
+    <test started-at="2024-10-23T23:57:21 IST" name="Test" finished-at="2024-10-23T23:57:24 IST" duration-ms="3765">
+      <class name="TestCases.TC002_SD_PurchaseTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC002_SD_PurchaseTest@158a3b2e]" started-at="2024-10-23T23:57:21 IST" name="setup" finished-at="2024-10-23T23:57:23 IST" duration-ms="2045" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="PurchaseTest()[pri:0, instance:TestCases.TC002_SD_PurchaseTest@158a3b2e]" started-at="2024-10-23T23:57:23 IST" name="PurchaseTest" finished-at="2024-10-23T23:57:24 IST" duration-ms="1232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PurchaseTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC002_SD_PurchaseTest@158a3b2e]" started-at="2024-10-23T23:57:24 IST" name="tearDown" finished-at="2024-10-23T23:57:24 IST" duration-ms="307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TC002_SD_PurchaseTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Master -->
+</testng-results>
